@@ -1,0 +1,26 @@
+{
+    "type": "function",
+      "function": {
+        "name": "news_browser",
+        "description": "Performs a news search using DuckDuckGo. REQUIRED for all news search requests. This tool can be used freely by the assistant to add news to the responses, either related to mentioned artists, or just the latest news in general.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "query": {
+              "type": "string",
+              "description": "The query to search for."
+            },
+            "region": {
+              "type": "string",
+              "description": "The region to search in. Default is \"us-en\"."
+            },
+            "max_results": {
+              "type": "integer",
+              "description": "The maximum number of results to return. Default is 1. Maximum is 10."
+            }
+          },
+          "required": ["query"]
+        }
+    }
+}
+    

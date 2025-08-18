@@ -1,0 +1,22 @@
+{
+    "type": "function",
+      "function": {
+        "name": "web_browser",
+        "description": "Performs a web search using DuckDuckGo. REQUIRED for all web search requests. If a prompt includes names of artists, songs, or albums this tool should be used to search for information about them.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "query": {
+              "type": "string",
+              "description": "The search query to perform."
+            },
+            "num_results": {
+              "type": "integer",
+              "description": "The number of results to return. Default is 2."
+            }
+          },
+          "required": ["query"]
+        }
+    }
+}
+  

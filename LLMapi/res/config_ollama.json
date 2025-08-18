@@ -1,0 +1,21 @@
+{
+    "model_name": "mistral-nemo",
+    "version": "12b",
+    "api_endpoint": "http://localhost:11434",
+    "config": {
+        "tools": [
+            "url_parser",
+            "web_browser",
+            "news_browser"
+        ],
+        "max_content_size_web": 20000,
+
+        "system_prompt": "LLMapi/res/base_prompt.txt",
+        "kwargs": {
+            "options": {
+                "temperature": 0.2,
+                "max_tokens": 2000
+            }
+        }
+    }
+}

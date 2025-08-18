@@ -1,0 +1,19 @@
+{
+    "type": "function",
+      "function": {
+        "name": "url_parser",
+        "description": "Fetches and extracts main text from ANY webpage. If a prompt includes an URL directly, this tool should be used to extract the text from the URL.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "url": {
+              "type": "string",
+              "format": "uri",
+              "description": "Full URL starting with http://, https:// or simply www."
+            }
+          },
+          "required": ["url"]
+        }
+    }
+}
+  
