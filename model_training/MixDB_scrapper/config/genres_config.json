@@ -1,0 +1,210 @@
+{
+  "base_url": "https://www.mixesdb.com",
+  "category_base_url": "https://www.mixesdb.com/w/Category:",
+  "genre_groups": {
+    "house_variants": {
+      "description": "House music and its subgenres",
+      "genres": [
+        {"name": "House", "slug": "House", "count": 111234},
+        {"name": "Deep House", "slug": "Deep_House", "count": 25696},
+        {"name": "Lo-Fi House", "slug": "Lo-Fi_House", "count": 28},
+        {"name": "Vocal House", "slug": "Vocal_House", "count": 3469},
+        {"name": "House (Old School)", "slug": "House_(Old_School)", "count": 2106},
+        {"name": "Acid House", "slug": "Acid_House", "count": 1054},
+        {"name": "Hip House", "slug": "Hip_House", "count": 181}
+      ]
+    },
+    "minimal_tech_variants": {
+      "description": "Minimal and Tech House variations",
+      "genres": [
+        {"name": "Minimal", "slug": "Minimal", "count": 16685},
+        {"name": "Deep Tech House", "slug": "Deep_Tech_House", "count": 3283},
+        {"name": "Tech House", "slug": "Tech_House", "count": 60969},
+        {"name": "IDM", "slug": "IDM", "count": 996},
+        {"name": "Leftfield", "slug": "Leftfield", "count": 377},
+        {"name": "Electro", "slug": "Electro", "count": 4928},
+        {"name": "Booty", "slug": "Booty", "count": 99},
+        {"name": "Ghetto", "slug": "Ghetto", "count": 137},
+        {"name": "Gqom", "slug": "Gqom", "count": 98}
+      ]
+    },
+    "techno_variants": {
+      "description": "Techno and its subgenres",
+      "genres": [
+        {"name": "Techno", "slug": "Techno", "count": 60496},
+        {"name": "Dub Techno", "slug": "Dub_Techno", "count": 1301},
+        {"name": "Detroit Techno", "slug": "Detroit_Techno", "count": 336},
+        {"name": "Industrial", "slug": "Industrial", "count": 1034},
+        {"name": "Acid", "slug": "Acid", "count": 2945},
+        {"name": "Acid Techno", "slug": "Acid_Techno", "count": 865},
+        {"name": "Rave", "slug": "Rave", "count": 2502},
+        {"name": "Hard Techno", "slug": "Hard_Techno", "count": 4183}
+      ]
+    },
+    "hardcore_variants": {
+      "description": "Hardcore and related genres",
+      "genres": [
+        {"name": "Hardcore", "slug": "Hardcore", "count": 3292},
+        {"name": "Hardcore Techno", "slug": "Hardcore_Techno", "count": 398},
+        {"name": "Happy Hardcore", "slug": "Happy_Hardcore", "count": 391},
+        {"name": "Hardstyle", "slug": "Hardstyle", "count": 4108}
+      ]
+    },
+    "euro_progressive_variants": {
+      "description": "Euro House and Progressive variations",
+      "genres": [
+        {"name": "Euro House", "slug": "Euro_House", "count": 274},
+        {"name": "Big Beat", "slug": "Big_Beat", "count": 128},
+        {"name": "Electro Pop", "slug": "Electro_Pop", "count": 206},
+        {"name": "Hard House", "slug": "Hard_House", "count": 692},
+        {"name": "Progressive House", "slug": "Progressive_House", "count": 36968},
+        {"name": "Ballroom", "slug": "Ballroom", "count": 63},
+        {"name": "Italodance", "slug": "Italodance", "count": 932},
+        {"name": "Progressive", "slug": "Progressive", "count": 17179}
+      ]
+    },
+    "trance_variants": {
+      "description": "Trance and its subgenres",
+      "genres": [
+        {"name": "Trance", "slug": "Trance", "count": 33849},
+        {"name": "Progressive Trance", "slug": "Progressive_Trance", "count": 7523},
+        {"name": "Psytrance", "slug": "Psytrance", "count": 1492},
+        {"name": "Hard Trance", "slug": "Hard_Trance", "count": 1954}
+      ]
+    },
+    "hip_hop_variants": {
+      "description": "Hip Hop and related genres",
+      "genres": [
+        {"name": "Hip Hop", "slug": "Hip_Hop", "count": 3708},
+        {"name": "R&B", "slug": "R%26B", "count": 708},
+        {"name": "Turntablism", "slug": "Turntablism", "count": 57},
+        {"name": "Grime", "slug": "Grime", "count": 1425},
+        {"name": "Club Music", "slug": "Club_Music", "count": 124}
+      ]
+    },
+    "bass_uk_variants": {
+      "description": "Bass music and UK genres",
+      "genres": [
+        {"name": "Dubstep", "slug": "Dubstep", "count": 3041},
+        {"name": "Bass", "slug": "Bass", "count": 621},
+        {"name": "Bassline", "slug": "Bassline", "count": 1506},
+        {"name": "Juke", "slug": "Juke", "count": 247},
+        {"name": "Trap", "slug": "Trap", "count": 114},
+        {"name": "2 Step", "slug": "2_Step", "count": 151},
+        {"name": "UK Funky", "slug": "UK_Funky", "count": 290},
+        {"name": "UK Garage", "slug": "UK_Garage", "count": 2078},
+        {"name": "Trip Hop", "slug": "Trip_Hop", "count": 195}
+      ]
+    },
+    "drum_bass_variants": {
+      "description": "Drum & Bass and Breakbeat genres",
+      "genres": [
+        {"name": "Drum & Bass", "slug": "Drum_%26_Bass", "count": 21512},
+        {"name": "Jungle", "slug": "Jungle", "count": 3100},
+        {"name": "Breakbeat", "slug": "Breakbeat", "count": 2563},
+        {"name": "Breakbeat Hardcore", "slug": "Breakbeat_Hardcore", "count": 1465},
+        {"name": "Breakcore", "slug": "Breakcore", "count": 156}
+      ]
+    },
+    "experimental_variants": {
+      "description": "Experimental and Noise genres",
+      "genres": [
+        {"name": "Experimental", "slug": "Experimental", "count": 2265},
+        {"name": "Noise", "slug": "Noise", "count": 90},
+        {"name": "Rhythmic Noise", "slug": "Rhythmic_Noise", "count": 16}
+      ]
+    },
+    "reggae_dub_variants": {
+      "description": "Reggae and Dub variations",
+      "genres": [
+        {"name": "Dub", "slug": "Dub", "count": 826},
+        {"name": "Reggae", "slug": "Reggae", "count": 892},
+        {"name": "Dancehall", "slug": "Dancehall", "count": 417}
+      ]
+    },
+    "downtempo_variants": {
+      "description": "Downtempo and Ambient genres",
+      "genres": [
+        {"name": "Downtempo", "slug": "Downtempo", "count": 2131},
+        {"name": "Balearic", "slug": "Balearic", "count": 41},
+        {"name": "Chill Out", "slug": "Chill_Out", "count": 3083},
+        {"name": "Ambient", "slug": "Ambient", "count": 2969},
+        {"name": "Classical", "slug": "Classical", "count": 129},
+        {"name": "Psychedelic", "slug": "Psychedelic", "count": 251},
+        {"name": "Electronica (Synthesizer)", "slug": "Electronica_(Synthesizer)", "count": 748}
+      ]
+    },
+    "pop_disco_variants": {
+      "description": "Pop and Disco genres",
+      "genres": [
+        {"name": "Pop", "slug": "Pop", "count": 1548},
+        {"name": "Disco", "slug": "Disco", "count": 12916},
+        {"name": "Freestyle", "slug": "Freestyle", "count": 235},
+        {"name": "Synth Pop", "slug": "Synth_Pop", "count": 917},
+        {"name": "Synthwave", "slug": "Synthwave", "count": 25},
+        {"name": "EBM", "slug": "EBM", "count": 351},
+        {"name": "Indie Dance", "slug": "Indie_Dance", "count": 224}
+      ]
+    },
+    "jazz_funk_variants": {
+      "description": "Jazz and Funk genres",
+      "genres": [
+        {"name": "Future Jazz", "slug": "Future_Jazz", "count": 160},
+        {"name": "Funk", "slug": "Funk", "count": 2848},
+        {"name": "Soul", "slug": "Soul", "count": 2607},
+        {"name": "Breaks", "slug": "Breaks", "count": 1426},
+        {"name": "Rare Groove", "slug": "Rare_Groove", "count": 479}
+      ]
+    },
+    "world_various": {
+      "description": "World Music and Various genres",
+      "genres": [
+        {"name": "World Music", "slug": "World_Music", "count": 701},
+        {"name": "Jazz", "slug": "Jazz", "count": 970},
+        {"name": "Electro Swing", "slug": "Electro_Swing", "count": 15},
+        {"name": "Latin", "slug": "Latin", "count": 547},
+        {"name": "Rock", "slug": "Rock", "count": 559},
+        {"name": "Various", "slug": "Various", "count": 19043}
+      ]
+    }
+  },
+  "additional_genres": {
+    "description": "Additional genres found in subcategories",
+    "genres": [
+      {"name": "Afro House", "slug": "Afro_House"},
+      {"name": "Afrobeat", "slug": "Afrobeat"},
+      {"name": "Amapiano", "slug": "Amapiano"},
+      {"name": "Bigroom", "slug": "Bigroom"},
+      {"name": "Boogie", "slug": "Boogie"},
+      {"name": "Bossa Nova", "slug": "Bossa_Nova"},
+      {"name": "Brasil", "slug": "Brasil"},
+      {"name": "Broken Beat", "slug": "Broken_Beat"},
+      {"name": "Chiptune", "slug": "Chiptune"},
+      {"name": "Darkwave", "slug": "Darkwave"},
+      {"name": "Future Rave", "slug": "Future_Rave"},
+      {"name": "Goa Trance", "slug": "Goa_Trance"},
+      {"name": "Gospel", "slug": "Gospel"},
+      {"name": "Halftime", "slug": "Halftime"},
+      {"name": "Hyper Pop", "slug": "Hyper_Pop"},
+      {"name": "Latin House", "slug": "Latin_House"},
+      {"name": "Library Music", "slug": "Library_Music"},
+      {"name": "Lovers Rock", "slug": "Lovers_Rock"},
+      {"name": "Modern Soul", "slug": "Modern_Soul"},
+      {"name": "MPB", "slug": "MPB"},
+      {"name": "Northern Soul", "slug": "Northern_Soul"},
+      {"name": "Prog Rock", "slug": "Prog_Rock"},
+      {"name": "Soundtrack", "slug": "Soundtrack"},
+      {"name": "Tribal", "slug": "Tribal"}
+    ]
+  },
+  "scraping_config": {
+    "delay_between_requests": 1.0,
+    "max_retries": 3,
+    "timeout": 30,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+    "pagination_params": {
+      "limit": 200,
+      "offset_param": "offset"
+    }
+  }
+} 
