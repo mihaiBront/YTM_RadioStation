@@ -8,6 +8,7 @@ __pycache__/
 *.wav
 
 # Distribution / packaging
+_samples/
 .Python
 build/
 develop-eggs/
@@ -168,3 +169,7 @@ cython_debug/
 Thumbs.db
 ehthumbs.db
 Desktop.ini 
+model_training/temp
+
+#WSL
+*:Zone.Identifier

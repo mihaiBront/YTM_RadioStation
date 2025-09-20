@@ -1,0 +1,5 @@
+yt_dlp
+essentia-tensorflow
+tensorflow
+matplotlib
+numpy 

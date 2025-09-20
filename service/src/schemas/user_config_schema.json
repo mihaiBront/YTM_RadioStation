@@ -1,0 +1,46 @@
+{
+    "type": "object",
+    "properties": {
+        "host_config": {
+            "type": "object",
+            "properties": {
+                "name": { "type": "string" },
+                "gender": { 
+                    "type": "string",
+                    "enum": ["male", "female"]
+                },
+                "personality": { 
+                    "type": "string",
+                    "enum": ["friendly", "sassy", "serious", "playful", "professional"]
+                },
+                "tone": { 
+                    "type": "string",
+                    "enum": ["happy", "sad", "angry", "surprised", "excited", "relaxed", "energetic", "calm"]
+                }
+            }
+        },
+        "station_config": {
+            "type": "object",
+            "properties": {
+                "name": { "type": "string" },
+                "genre": { 
+                    "type": "string",
+                    "enum": [
+                        "hip hop", "rock", "pop", "country", "electronic", "jazz", "classical", "reggae", 
+                        "blues", "folk", "soul", "r&b", "metal", "punk", "disco", "regional mexican", 
+                        "latin", "indie", "alternative", "blues", "funk", "soul", "r&b", "metal", "punk", 
+                        "disco", "regional mexican", "latin", "indie", "alternative"
+                    ]
+                },
+                "mood": { 
+                    "type": "string",
+                    "enum": ["happy", "sad", "angry", "surprised", "excited", "relaxed", "energetic", "calm"]
+                },
+                "tone": { 
+                    "type": "string",
+                    "enum": ["warm", "conversational", "enthusiastic", "professional"]
+                }
+            }
+        }
+    }
+}

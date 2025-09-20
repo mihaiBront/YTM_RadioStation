@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "service"
+		},
+		{
+			"path": "model_training"
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/__pycache__**": true
+		},
+		"postman.settings.dotenv-detection-notification-visibility": false
+	}
+}
