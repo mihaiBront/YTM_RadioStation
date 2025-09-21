@@ -1,2 +1,2 @@
 temp/*
-MixDB_scrapper/output*
+MixDB_scrapper/output/data/*.json
