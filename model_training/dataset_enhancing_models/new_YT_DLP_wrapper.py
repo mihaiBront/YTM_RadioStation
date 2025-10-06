@@ -155,14 +155,14 @@ class YT_DLP_wrapper(object):
 
 @dataclass
 class MLLabellingWrapper(object):
-    input_dataframe: pd.DataFrame = field(default=None)
+    input_dataframe: pd.DataFrame = field(default_factory=pd.DataFrame)
     output_dataframe: str = field(default="")
     max_simultaneous_downloads: int = field(default=10)
     batch_size: int = field(default=10)
     
-    __current_song_batch: list[dict[str, Any]] = field(default=[])
-    __next_song_batch: list[dict[str, Any]] = field(default=[])
-    __downloader: YT_DLP_wrapper = field(default=None)
+    __current_song_batch: list[dict[str, Any]] = field(default_factory=list)
+    __next_song_batch: list[dict[str, Any]] = field(default_factory=list)
+    __downloader: YT_DLP_wrapper = field(default_factory=YT_DLP_wrapper)
     
     def __post_init__(self):
         self.__downloader = YT_DLP_wrapper(max_simultaneous_downloads=self.max_simultaneous_downloads)
@@ -275,13 +275,13 @@ class MLLabellingWrapper(object):
         self.create_output_dataframe()
         
         # download first batch
-        self.__next_song_batch = self.__downloader.batch_download(self.dataframe.iloc[0:self.batch_size].to_dict()) #TODO: out of bounds
+        self.__next_song_batch = self.__downloader.batch_download(self.input_dataframe.iloc[0:self.batch_size].to_dict()) #TODO: out of bounds
         for i in range(0, len(self.dataframe), self.batch_size):
             self.__current_song_batch = self.__next_song_batch
             with concurrent.futures.ThreadPoolExecutor(max_workers=2) as executor:
                 next_batch_future = executor.submit(
                     self.__downloader.batch_download,
-                    self.dataframe.iloc[i:i+self.batch_size].to_dict(orient="records") #TODO: out of bounds
+                    self.input_dataframe.iloc[i:i+self.batch_size].to_dict(orient="records") #TODO: out of bounds
                 )
                 executor.submit(
                     self.process_batch
@@ -292,6 +292,6 @@ class MLLabellingWrapper(object):
 #endregion
 
 if __name__ == "__main__":
-    df = pd.read_csv("data/train_data.csv")
-    d = MLLabellingWrapper(input_dataframe=df, max_simultaneous_downloads=10, batch_size=10)
+    df = pd.read_csv("MixDB_scrapper/output/data/scrapped_combo_filtered_pl_lt_8_10k.csv")
+    d = MLLabellingWrapper(input_dataframe=df, output_dataframe="MixDB_scrapper/output/data/scrapped_combo_filtered_pl_lt_8_10k_labelled.csv", max_simultaneous_downloads=10, batch_size=10)
     d.pipeline_orchestrator()
