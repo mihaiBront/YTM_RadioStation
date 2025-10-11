@@ -1,15 +1,3 @@
-{
-    "files.exclude": {
-        "**/__pycache__/**": true,
-        "**/**:Zone.Identifier": true
-    },
-    "python.testing.unittestArgs": [
-        "-v",
-        "-s",
-        "./tests",
-        "-p",
-        "test_*.py"
-    ],
-    "python.testing.pytestEnabled": false,
-    "python.testing.unittestEnabled": true
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:745d4bc417e1e033e1d78325f98ee9af6b0c5034a1808fb9ef917f4a7359aeb2
+size 317
